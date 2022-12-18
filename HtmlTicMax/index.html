@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejmplo de formularios en HTML</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,100&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- formularios en HTML -->
+    <h1>Complete el formulario:</h1>
+    <section>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" />
+        <br />
+        <br />
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" />
+        <br />
+        <br />
+        <label for="fechaNac">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNac" name="fechaNac" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <br />
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="tel" name="tel" />
+        <br />
+        <!--Elegir entre dos opciones en html-->
+        <p>¿Cómo te vas a conectar a la clase?</p>
+        <div>
+          <input
+            type="radio"
+            name="conexion"
+            id="compu"
+            value="compu"
+            checked
+          />
+          <label for="compu">Computadora</label>
+          <br />
+          <br />
+          <input type="radio" name="conexion" id="celu" value="celu" checked />
+          <label for="celu">Celular</label>
+          <br />
+        </div>
+        <!--checkbox en html-->
+        <p>¿Cómo nos comunicamos con vos?</p>
+        <div>
+          <input type="checkbox" name="cuenta" id="mail" value="mail" checked />
+          <label for="mail">Por Email:</label>
+          <br />
+          <br />
+          <input
+            type="checkbox"
+            name="cuenta"
+            id="correo"
+            value="correo"
+            checked
+          />
+          <label for="corre">Por Correo Postal:</label>
+          <br />
+          <br />
+          <!--boton enviar en html-->
+        </div>
+        <input type="submit" enviar />
+      </form>
+    </section>
+    <!-- Imagenes en html -->
+    <img
+      width="350"
+      src="C:\Users\User\Pictures\lenguajes-de-programacion-mas-usados-1.jpg"
+    />
+    <!-- videos en html-->
+    <video width="350" controls>
+      <source
+        src="Clase Arrays  Programación  Clases de Utilidad en Java  V5  Egg Educación - Egg Cooperation.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+    <!-- videos de youtube en html-->
+    <iframe
+      width="350"
+      src="https://www.youtube.com/embed/kP5f5x2n8dw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
